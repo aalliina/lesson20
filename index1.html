@@ -25,7 +25,7 @@
             if (guess === null) {
             break;
         } else if (guess.length !==1 ) {
-            alert("Введите только 1 букву.")
+            alert("Введите одну букву.")
         } else {
             for(let  j=0; j < word.length; j++) {
                 if (word[j] === guess) {
@@ -36,7 +36,7 @@
         }
     }
     alert(answerArray.join(" "));
-    alert("Поздравляем! Было загадано слово "+word);
+    alert("Поздравляем! Было угадано слово "+word);
     </script>
 </body>
 </html>
