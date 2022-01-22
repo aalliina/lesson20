@@ -28,7 +28,17 @@
         //     console.log(obj.name);
         //     delete obj.name
         
-        
+        let grades = {
+            Jane: 59,
+            John: 76,
+            Tom: 38,
+            Ann: 99
+        };
+        total= 0;
+        for (let key in grades) {
+            total = total + grades[key]
+        }
+        console.log(total)
     </script>
 </body>
 </html>
